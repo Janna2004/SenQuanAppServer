@@ -34,6 +34,7 @@ server.get("/getDetail",async(request,response)=>{
     response.json(result);
 })
 
-server.listen(8080,()=>{
+//端口号修改到8090！
+server.listen(8090,()=>{
     console.log("服务器启动完毕！");
 })
